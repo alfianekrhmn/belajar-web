@@ -1,5 +1,5 @@
 body {
-    background-color: #007dfb;
+    background-color: #0080ff;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -7,9 +7,14 @@ header {
     text-align: center;
 }
 
+header.container {
+    background-color: white;
+    color: black;
+}
+
 section {
     margin-top: 10px;
-    border-bottom: 8px solid black;
+    border-bottom: 8px solid rgb(0, 0, 122);
 }
 
 .container {
@@ -26,17 +31,27 @@ section {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: gray;
+}
+
 .profile img {
     width: 150px;
     border-radius: 10px;
 }
 
 h1 {
-    color: #2c3e50;
+    color: #000000;
 }
 
 h2 {
-    color: #34495e;
+    color: #000000;
 }
 
 ul {
