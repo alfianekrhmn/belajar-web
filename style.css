@@ -3,6 +3,14 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+header {
+    text-align: center;
+}
+
+section {
+    margin-top: 10px;
+    border-bottom: 8px solid black;
+}
 
 .container {
     background-color: white;
@@ -45,4 +53,10 @@ ul li {
         text-align: center;
     }
 
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
 }
